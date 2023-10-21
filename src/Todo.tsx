@@ -8,29 +8,29 @@ const Todo:FunctionComponent = () => {
             <div className={styles.tasks}>
                     <div className={styles.list}>
                         <div className={styles.task}>
-                                <img className={styles.checkIcon5} alt="" src="check.svg" />
+                                <img className={styles.checkIcon5} alt="" src="/uncheck.svg" />
                                 <div className={styles.integerUrnaInterdum5}>Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</div>
-                                <img className={styles.trashIcon5} alt="" src="trash.svg" />
+                                <img className={styles.trashIcon5} alt="" src="/trash.svg" />
                         </div>
                         <div className={styles.task1}>
-                                <img className={styles.checkIcon5} alt="" src="check.svg" />
+                                <img className={styles.checkIcon5} alt="" src="/uncheck.svg" />
                                 <div className={styles.integerUrnaInterdum5}>Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</div>
-                                <img className={styles.trashIcon5} alt="" src="trash.svg" />
+                                <img className={styles.trashIcon5} alt="" src="/trash.svg" />
                         </div>
                         <div className={styles.task1}>
-                                <img className={styles.checkIcon5} alt="" src="check.svg" />
+                                <img className={styles.checkIcon5} alt="" src="/uncheck.svg" />
                                 <div className={styles.integerUrnaInterdum5}>Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</div>
-                                <img className={styles.trashIcon5} alt="" src="trash.svg" />
+                                <img className={styles.trashIcon5} alt="" src="/trash.svg" />
                         </div>
                         <div className={styles.task3}>
-                                <img className={styles.checkIcon8} alt="" src="check.svg" />
+                                <img className={styles.checkIcon8} alt="" src="/check.svg" />
                                 <div className={styles.integerUrnaInterdum8}>Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</div>
-                                <img className={styles.trashIcon5} alt="" src="trash.svg" />
+                                <img className={styles.trashIcon5} alt="" src="/trash.svg" />
                         </div>
                         <div className={styles.task3}>
-                                <img className={styles.checkIcon8} alt="" src="check.svg" />
+                                <img className={styles.checkIcon8} alt="" src="/check.svg" />
                                 <div className={styles.integerUrnaInterdum8}>Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</div>
-                                <img className={styles.trashIcon5} alt="" src="trash.svg" />
+                                <img className={styles.trashIcon5} alt="" src="/trash.svg" />
                         </div>
                     </div>
             </div>
@@ -49,7 +49,7 @@ const Todo:FunctionComponent = () => {
             </div>
             <div className={styles.button}>
                     <b className={styles.criar}>App New</b>
-                    <img className={styles.plusIcon1} alt="" src="plus.svg" />
+                    <img className={styles.plusIcon1} alt="" src="/plus.svg" />
             </div>
         </div>
     );
